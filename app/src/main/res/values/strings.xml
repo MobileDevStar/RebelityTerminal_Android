@@ -13,4 +13,19 @@
     <string name="event_list_event">Event</string>
     <string name="event_list_instance">Instance</string>
     <string name="event_list_contact">Contact List</string>
+    <string name="terminal_setup">TERMINAL SETUP</string>
+    <string name="terminal_list_terminal">Terminal</string>
+    <string name="terminal_list_status">Status</string>
+    <string name="terminal_connect">CONNECT</string>
+    <string name="register_new_reader">REGISTER NEW READER</string>
+    <string name="terminal_register">REGISTER</string>
+    <string name="card_terminal_registration">Card Terminal Registration</string>
+    <string name="register_note_no1">1.</string>
+    <string name="register_note1">Connect a card reader to your network and power it on.</string>
+    <string name="register_note_no2">2.</string>
+    <string name="register_note2">Using the card reder pinpad, enter the key sequence 0-7-1-3-9.</string>
+    <string name="register_note_no3">3.</string>
+    <string name="register_note3">The terminal will display a unique registration code. Enter it below along with a unique label to identify this reader.</string>
+    <string name="register_reader_code">Code: </string>
+    <string name="register_reader_label">Label: </string>
 </resources>

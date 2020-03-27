@@ -4,30 +4,32 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <TextView
-        android:id="@+id/event_list_event"
+        android:id="@+id/terminal_list_terminal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
         android:padding="@dimen/login_edit_padding"
         android:text=""
         android:textColor="@android:color/black"/>
-
     <TextView
-        android:id="@+id/event_list_instance"
+        android:id="@+id/terminal_list_status"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/login_edit_padding"
+        android:text=""
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/terminal_list_connect"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/terminal_connect_height"
         android:layout_weight="0.4"
-        android:lines="3"
-        android:padding="@dimen/login_edit_padding"
-        android:text=""
-        android:textColor="@color/event_instance_color"
-        android:textStyle="bold" />
-    <TextView
-        android:id="@+id/event_list_contact"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.3"
-        android:padding="@dimen/login_edit_padding"
-        android:text=""
-        android:textColor="@android:color/black"/>
+        android:layout_margin="@dimen/login_edit_padding"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/connect_button_bg"
+        android:text="@string/terminal_connect"
+        android:textColor="@android:color/white"/>
+
 </LinearLayout>

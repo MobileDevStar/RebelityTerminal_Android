@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="accent_font_size">@dimen/_14sdp</dimen>
     <dimen name="logo_width">@dimen/_200sdp</dimen>
     <dimen name="logo_height">@dimen/_70sdp</dimen>
     <dimen name="logo_margin_bottom">@dimen/_20sdp</dimen>
@@ -14,4 +15,8 @@
     <dimen name="logout_height">@dimen/_20sdp</dimen>
     <dimen name="event_image_width">@dimen/_70sdp</dimen>
     <dimen name="event_image_height">@dimen/_60sdp</dimen>
+    <dimen name="event_list_height">@dimen/_250sdp</dimen>
+    <dimen name="terminal_setup_top">@dimen/_30sdp</dimen>
+    <dimen name="terminal_connect_height">@dimen/_27sdp</dimen>
+
 </resources>

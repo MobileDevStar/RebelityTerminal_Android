@@ -7,4 +7,5 @@
     <color name="loginTitleColor">#4db3a5</color>
     <color name="loginButtonColor">#f3565d</color>
     <color name="event_instance_color">#3598dc</color>
+    <color name="terminal_connect_color">#00bcd4</color>
 </resources>

@@ -1,22 +1,31 @@
 package com.rebelity.rebelityterminal.models;
 
 public class EventModel {
-    private String product;
-    private int qty;
+    private int     id;
+    private String  event;
+    private String  instance;
+    private String  contact;
 
-    public String getProduct() {
-        return product;
+    public EventModel(int id, String event, String instance, String contact) {
+        this.id = id;
+        this.event = event;
+        this.instance = instance;
+        this.contact = contact;
     }
 
-    public void setProduct(String product) {
-        this.product = product;
+    public int getId() {
+        return id;
     }
 
-    public int getQty() {
-        return qty;
+    public String getEvent() {
+        return event;
     }
 
-    public void setQty(int qty) {
-        this.qty = qty;
+    public String getInstance() {
+        return instance;
+    }
+
+    public String getContact() {
+        return contact;
     }
 }
