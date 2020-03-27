@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">@dimen/_200sdp</dimen>
+    <dimen name="logo_height">@dimen/_70sdp</dimen>
+    <dimen name="logo_margin_bottom">@dimen/_20sdp</dimen>
+    <dimen name="login_view_margin">@dimen/_15sdp</dimen>
+    <dimen name="login_edit_padding">@dimen/_7sdp</dimen>
+    <dimen name="login_edit_textsize">@dimen/_14sdp</dimen>
+    <dimen name="login_button_height">@dimen/_32sdp</dimen>
+    <dimen name="copyright_margin_bottom">@dimen/_20sdp</dimen>
+    <dimen name="main_logo_width">@dimen/_90sdp</dimen>
+    <dimen name="main_logo_height">@dimen/_25sdp</dimen>
+    <dimen name="logout_width">@dimen/_20sdp</dimen>
+    <dimen name="logout_height">@dimen/_20sdp</dimen>
+    <dimen name="event_image_width">@dimen/_70sdp</dimen>
+    <dimen name="event_image_height">@dimen/_60sdp</dimen>
+</resources>

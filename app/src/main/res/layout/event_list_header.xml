@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_header_bg">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:padding="@dimen/login_edit_padding"
+        android:text="@string/event_list_event"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:padding="@dimen/login_edit_padding"
+        android:text="@string/event_list_instance"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:padding="@dimen/login_edit_padding"
+        android:text="@string/event_list_contact"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+</LinearLayout>

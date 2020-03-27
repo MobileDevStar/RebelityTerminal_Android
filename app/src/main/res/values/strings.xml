@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RebelityTerminal</string>
+    <string name="app_copyright">Copyright \u00a9 2020 Rebelity Software Ltd. Co. </string>
+    <string name="app_login_title">LOG IN</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_username_validate">Username is required</string>
+    <string name="login_password_validate">Password is required</string>
+    <string name="app_logo_image">App Logo Image</string>
+    <string name="app_logout_image">App Logout Image</string>
+    <string name="upcoming_event">UPCOMING EVENTS</string>
+    <string name="upcoming_event_image">Upcoming Event Image</string>
+    <string name="event_list_event">Event</string>
+    <string name="event_list_instance">Instance</string>
+    <string name="event_list_contact">Contact List</string>
+</resources>
