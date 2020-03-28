@@ -8,4 +8,7 @@
     <color name="loginButtonColor">#f3565d</color>
     <color name="event_instance_color">#3598dc</color>
     <color name="terminal_connect_color">#00bcd4</color>
+    <color name="gray_color">#e6e6e6</color>
+    <color name="red_color">#FF0000</color>
+    <color name="dark_green_color">#238c23</color>
 </resources>

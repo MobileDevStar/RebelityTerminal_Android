@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/tickets_cancel_button">
+            <LinearLayout
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/tickets_total_price"
+                        android:text="(0) / "
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/accent_font_size"/>
+                    <TextView
+                        android:id="@+id/tickets_total_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="$0"
+                        android:textStyle="bold"
+                        android:textColor="@color/red_color"
+                        android:textSize="@dimen/accent_font_size"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/ticket_subtotal_label"
+                        android:text="(ITEMS) / "
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:id="@+id/ticket_subtotal_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/tickets_subtotal_price"
+                        android:text="SUBTOTAL"
+                        android:textStyle="bold"
+                        android:textColor="@color/red_color"/>
+                    <TextView
+                        android:id="@+id/tickets_subtotal_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="($)"
+                        android:textStyle="bold"
+                        android:textColor="@color/red_color"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <info.androidhive.fontawesome.FontTextView
+            android:id="@+id/tickets_cancel_button"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:background="@drawable/cancel_button_bg"
+            android:text="@string/fa_times_solid"
+            android:textColor="@color/red_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/accent_font_size"
+            app:solid_icon="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tickets_container_bg"
+        android:paddingLeft="@dimen/small_gap_size"
+        android:paddingStart="@dimen/small_gap_size"
+        android:paddingRight="@dimen/small_gap_size"
+        android:paddingEnd="@dimen/small_gap_size"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/ticket_thumbnail"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/small_gap_size"
+            android:layout_marginBottom="@dimen/small_gap_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/thumbnail" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_gap_size"
+            android:layout_marginBottom="@dimen/small_gap_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/ticket_thumbnail"
+            android:layout_marginLeft="@dimen/small_gap_size">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/small_gap_size"
+                    android:text="SCAN OPTIONS"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="INSTANCE" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EVENT" />
+                </RadioGroup>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/ticket_scan"
+                        android:gravity="left"
+                        android:paddingVertical="@dimen/small_gap_size"
+                        android:background="@drawable/barcode_edit_bg"
+                        android:hint="@string/ticket_barcode_hint"
+                        android:inputType="number"
+                        android:padding="@dimen/small_gap_size"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@color/gray_color"
+                        android:autofillHints="" tools:targetApi="o"/>
+                    <Button
+                        android:id="@+id/ticket_scan"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:background="@drawable/scan_button_bg"
+                        android:layout_alignParentRight="true"
+                        android:text="SCAN"
+                        android:textColor="@android:color/white"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="CASH SALE"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CASH SALE"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/dark_green_color"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:background="@color/gray_color"
+        android:layout_marginLeft="@dimen/small_gap_size"
+        android:layout_marginRight="@dimen/small_gap_size">
+
+    </LinearLayout>
+
+</LinearLayout>

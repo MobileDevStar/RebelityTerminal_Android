@@ -7,12 +7,12 @@
     android:layout_height="wrap_content"
     android:background="@android:color/black"
     android:orientation="horizontal"
-    android:paddingStart="@dimen/login_view_margin"
-    android:paddingLeft="@dimen/login_view_margin"
-    android:paddingTop="@dimen/login_edit_padding"
-    android:paddingEnd="@dimen/login_edit_padding"
-    android:paddingRight="@dimen/login_edit_padding"
-    android:paddingBottom="@dimen/login_edit_padding">
+    android:paddingStart="@dimen/mid_gap_size"
+    android:paddingLeft="@dimen/mid_gap_size"
+    android:paddingTop="@dimen/small_gap_size"
+    android:paddingEnd="@dimen/small_gap_size"
+    android:paddingRight="@dimen/small_gap_size"
+    android:paddingBottom="@dimen/small_gap_size">
 
     <ImageView
         android:layout_width="@dimen/main_logo_width"

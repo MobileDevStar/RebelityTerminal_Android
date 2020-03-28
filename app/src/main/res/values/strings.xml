@@ -28,4 +28,6 @@
     <string name="register_note3">The terminal will display a unique registration code. Enter it below along with a unique label to identify this reader.</string>
     <string name="register_reader_code">Code: </string>
     <string name="register_reader_label">Label: </string>
+
+    <string name="ticket_barcode_hint"> barcode</string>
 </resources>

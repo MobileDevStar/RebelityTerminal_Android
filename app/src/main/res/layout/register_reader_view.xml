@@ -3,11 +3,11 @@
     android:id="@+id/register_reader_view"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="@dimen/login_view_margin">
+    android:padding="@dimen/mid_gap_size">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/login_edit_padding"
+        android:layout_marginBottom="@dimen/small_gap_size"
         android:text="@string/card_terminal_registration"
         android:textSize="@dimen/accent_font_size"
         android:textColor="@android:color/black"/>
@@ -15,16 +15,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingLeft="@dimen/login_view_margin"
-        android:paddingStart="@dimen/login_view_margin"
+        android:paddingLeft="@dimen/mid_gap_size"
+        android:paddingStart="@dimen/mid_gap_size"
         android:paddingRight="0dp"
         android:paddingEnd="0dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/login_edit_padding"
-            android:paddingStart="@dimen/login_edit_padding"
+            android:paddingLeft="@dimen/small_gap_size"
+            android:paddingStart="@dimen/small_gap_size"
             android:paddingRight="0dp"
             android:paddingEnd="0dp"
             android:text="@string/register_note_no1"
@@ -33,8 +33,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/login_edit_padding"
-            android:paddingStart="@dimen/login_edit_padding"
+            android:paddingLeft="@dimen/small_gap_size"
+            android:paddingStart="@dimen/small_gap_size"
             android:paddingRight="0dp"
             android:paddingEnd="0dp"
             android:text="@string/register_note1"
@@ -44,15 +44,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingLeft="@dimen/login_view_margin"
-        android:paddingStart="@dimen/login_view_margin"
+        android:paddingLeft="@dimen/mid_gap_size"
+        android:paddingStart="@dimen/mid_gap_size"
         android:paddingRight="0dp"
         android:paddingEnd="0dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/login_edit_padding"
-            android:paddingStart="@dimen/login_edit_padding"
+            android:paddingLeft="@dimen/small_gap_size"
+            android:paddingStart="@dimen/small_gap_size"
             android:paddingRight="0dp"
             android:paddingEnd="0dp"
             android:text="@string/register_note_no2"
@@ -60,8 +60,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/login_edit_padding"
-            android:paddingStart="@dimen/login_edit_padding"
+            android:paddingLeft="@dimen/small_gap_size"
+            android:paddingStart="@dimen/small_gap_size"
             android:paddingRight="0dp"
             android:paddingEnd="0dp"
             android:text="@string/register_note2"
@@ -71,15 +71,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingLeft="@dimen/login_view_margin"
-        android:paddingStart="@dimen/login_view_margin"
+        android:paddingLeft="@dimen/mid_gap_size"
+        android:paddingStart="@dimen/mid_gap_size"
         android:paddingRight="0dp"
         android:paddingEnd="0dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/login_edit_padding"
-            android:paddingStart="@dimen/login_edit_padding"
+            android:paddingLeft="@dimen/small_gap_size"
+            android:paddingStart="@dimen/small_gap_size"
             android:paddingRight="0dp"
             android:paddingEnd="0dp"
             android:text="@string/register_note_no3"
@@ -87,8 +87,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/login_edit_padding"
-            android:paddingStart="@dimen/login_edit_padding"
+            android:paddingLeft="@dimen/small_gap_size"
+            android:paddingStart="@dimen/small_gap_size"
             android:paddingRight="0dp"
             android:paddingEnd="0dp"
             android:text="@string/register_note3"
@@ -134,7 +134,7 @@
         android:id="@+id/terminal_register"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/terminal_connect_height"
-        android:layout_marginTop="@dimen/login_edit_padding"
+        android:layout_marginTop="@dimen/small_gap_size"
         android:background="@drawable/connect_button_bg"
         android:text="@string/terminal_register"
         android:textColor="@android:color/white"/>
@@ -142,9 +142,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/login_edit_padding"
+        android:layout_margin="@dimen/small_gap_size"
         android:background="@drawable/login_validation_bg"
-        android:padding="@dimen/login_edit_padding"
+        android:padding="@dimen/small_gap_size"
         android:text="@string/login_username_validate"
         android:textColor="@android:color/white"
         android:visibility="visible" />

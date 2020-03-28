@@ -15,8 +15,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="@dimen/login_view_margin"
-        android:paddingBottom="@dimen/login_view_margin"
+        android:paddingTop="@dimen/mid_gap_size"
+        android:paddingBottom="@dimen/mid_gap_size"
         android:text="@string/app_copyright"
         android:textColor="@android:color/white" />
 </LinearLayout>
