@@ -12,9 +12,10 @@ import com.rebelity.rebelityterminal.models.TicketModel;
 
 import java.util.ArrayList;
 
-public class TicketCardAdapter extends RecyclerView.Adapter<TicketCardAdapter.MyViewHolder> {
+public class TicketRecyclerAdapter extends RecyclerView.Adapter<TicketRecyclerAdapter.MyViewHolder> {
 
     private ArrayList<TicketModel> list;
+    private int                     itemHeight;
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
@@ -28,7 +29,11 @@ public class TicketCardAdapter extends RecyclerView.Adapter<TicketCardAdapter.My
         }
     }
 
-    public TicketCardAdapter(ArrayList<TicketModel> data) {
+    public int getItemHeight() {
+        return itemHeight;
+    }
+
+    public TicketRecyclerAdapter(ArrayList<TicketModel> data) {
         this.list = data;
     }
 
@@ -41,6 +46,8 @@ public class TicketCardAdapter extends RecyclerView.Adapter<TicketCardAdapter.My
         //view.setOnClickListener(MainActivity.myOnClickListener);
 
         MyViewHolder myViewHolder = new MyViewHolder(view);
+
+        itemHeight = view.getMeasuredHeight();
         return myViewHolder;
     }
 

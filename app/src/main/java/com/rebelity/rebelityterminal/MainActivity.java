@@ -1,6 +1,7 @@
 package com.rebelity.rebelityterminal;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -96,4 +97,30 @@ public class MainActivity extends AppCompatActivity {
         listView.setLayoutParams(params);
         listView.requestLayout();
     }
+//
+//    public static void reLayoutRecyclerView(RecyclerView recyclerView, int cols) {
+//
+//        RecyclerView.Adapter mAdapter = recyclerView.getAdapter();
+//
+//        int totalHeight = 0;
+//        int adapterCnt = mAdapter.getItemCount();
+//        int showCnt = adapterCnt;//adapterCnt < limitCnt ? adapterCnt : limitCnt;
+//
+//        for (int i = 0; i < showCnt; i++) {
+//            mAdapter.
+//            View mView = mAdapter.getView(i, null, listView);
+//            mView.measure(
+//                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+//                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+//
+//            totalHeight += mView.getMeasuredHeight();
+//            Log.w("HEIGHT" + i, String.valueOf(totalHeight));
+//        }
+//
+//        ViewGroup.LayoutParams params = listView.getLayoutParams();
+//        params.height = totalHeight
+//                + (listView.getDividerHeight() * (showCnt - 1));
+//        listView.setLayoutParams(params);
+//        listView.requestLayout();
+//    }
 }

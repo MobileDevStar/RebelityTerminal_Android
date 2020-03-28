@@ -15,11 +15,11 @@ import java.util.ArrayList;
 
 import info.androidhive.fontawesome.FontTextView;
 
-public class TicketAdapter extends BaseAdapter {
+public class TicketListAdapter extends BaseAdapter {
     private Context context;
     private ArrayList<TicketModel> ticketModelArrayList;
 
-    public TicketAdapter(Context context, ArrayList<TicketModel> ticketModelArrayList) {
+    public TicketListAdapter(Context context, ArrayList<TicketModel> ticketModelArrayList) {
 
         this.context = context;
         this.ticketModelArrayList = ticketModelArrayList;

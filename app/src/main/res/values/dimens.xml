@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="accent_font_size">@dimen/_14sdp</dimen>
+    <dimen name="small_font_size">@dimen/_12sdp</dimen>
     <dimen name="logo_width">@dimen/_200sdp</dimen>
     <dimen name="logo_height">@dimen/_70sdp</dimen>
     <dimen name="logo_margin_bottom">@dimen/_20sdp</dimen>
     <dimen name="mid_gap_size">@dimen/_15sdp</dimen>
-    <dimen name="small_gap_size">@dimen/_7sdp</dimen>
+    <dimen name="small_gap_size">@dimen/_8sdp</dimen>
     <dimen name="login_edit_textsize">@dimen/_14sdp</dimen>
     <dimen name="login_button_height">@dimen/_32sdp</dimen>
     <dimen name="copyright_margin_bottom">@dimen/_20sdp</dimen>
@@ -25,5 +26,6 @@
     <dimen name="ticket_thumbnail_height">@dimen/_80sdp</dimen>
     <dimen name="ticket_edit_height">@dimen/_30sdp</dimen>
     <dimen name="discount_edit_left">@dimen/_107sdp</dimen>
+    <dimen name="ticket_recycler_margin">@dimen/_4sdp</dimen>
 
 </resources>

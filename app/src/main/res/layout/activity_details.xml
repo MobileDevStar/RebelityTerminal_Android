@@ -36,8 +36,47 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center_horizontal"
                     android:paddingTop="@dimen/mid_gap_size"
-                    android:paddingBottom="@dimen/mid_gap_size">
+                    android:paddingBottom="@dimen/small_gap_size">
+
+                    <info.androidhive.fontawesome.FontTextView
+                        android:id="@+id/upcoming_event_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/small_gap_size"
+                        android:paddingStart="@dimen/small_gap_size"
+                        android:paddingRight="@dimen/small_gap_size"
+                        android:paddingEnd="@dimen/small_gap_size"
+                        android:text="@string/fa_ticket_alt_solid"
+                        android:textColor="@android:color/white"
+                        android:rotation="-45"
+                        app:solid_icon="true"/>
+
+                    <TextView
+                        android:id="@+id/event_ticket_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MARIETTA School School School party text dd"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/accent_font_size"
+                        android:singleLine="true"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Print Queue"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/small_gap_size"
+                    android:paddingBottom="@dimen/small_gap_size">
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -62,54 +101,22 @@
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Print Queue"
-                    android:textColor="@android:color/white" />
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/small_gap_size"
-                    android:paddingBottom="@dimen/small_gap_size">
-
-                    <info.androidhive.fontawesome.FontTextView
-                        android:id="@+id/upcoming_event_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/small_gap_size"
-                        android:paddingStart="@dimen/small_gap_size"
-                        android:paddingRight="@dimen/small_gap_size"
-                        android:paddingEnd="@dimen/small_gap_size"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentLeft="true"
-                        android:layout_centerVertical="true"
-                        android:text="@string/fa_ticket_alt_solid"
-                        android:textColor="@android:color/white"
-                        android:rotation="-45"
-                        app:solid_icon="true"/>
-
-                    <TextView
-                        android:id="@+id/event_ticket_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:layout_toEndOf="@+id/upcoming_event_image"
-                        android:layout_toRightOf="@+id/upcoming_event_image"
-                        android:text="MARIETTA HIGH SCHOOL PROM TICKETS"
-                        android:textColor="@android:color/white"
-                        android:textSize="@dimen/accent_font_size"
-                        android:singleLine="true"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-
                 <include
                     layout="@layout/tickets_container"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/guests_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:visibility="gone"/>
+                <include
+                    layout="@layout/sales_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:visibility="visible"/>
 
             </LinearLayout>
 

@@ -32,7 +32,7 @@
         android:background="@color/red_color"
         android:paddingLeft="@dimen/_2sdp"
         android:paddingRight="@dimen/_2sdp"
-        android:paddingBottom="@dimen/_2sdp"
+        android:paddingBottom="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_2sdp"
         android:layout_marginLeft="@dimen/_2sdp"
         android:layout_marginRight="@dimen/_2sdp"

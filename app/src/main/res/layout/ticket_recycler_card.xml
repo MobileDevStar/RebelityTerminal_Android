@@ -3,28 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="@dimen/discount_recycler_margin">
+    android:layout_height="@dimen/_48sdp"
+    android:layout_margin="@dimen/ticket_recycler_margin">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/ticket_discount_card"
         xmlns:card_view="https://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="@color/discount_card_color"
-        card_view:cardCornerRadius="10dp"
-        card_view:cardElevation="5dp"
-        card_view:cardUseCompatPadding="true">
+        android:layout_height="wrap_content">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/mid_gap_size"
-            android:paddingStart="@dimen/mid_gap_size"
-            android:paddingRight="@dimen/mid_gap_size"
-            android:paddingEnd="@dimen/mid_gap_size"
-            android:paddingTop="@dimen/small_gap_size"
-            android:paddingBottom="@dimen/small_gap_size"
             android:background="@color/discount_card_color">
 
             <info.androidhive.fontawesome.FontTextView
@@ -44,24 +34,26 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/small_gap_size"
-                android:layout_marginBottom="@dimen/small_gap_size"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="@dimen/small_gap_size">
 
                 <TextView
-                    android:id="@+id/discount_card_name"
+                    android:id="@+id/ticket_card_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/discount_card_name"
                     android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/_12sdp"
                     android:textColor="@android:color/white"/>
 
                 <TextView
-                    android:id="@+id/discount_card_price"
+                    android:id="@+id/ticket_card_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/discount_card_price"
                     android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
                     android:textColor="@android:color/white"/>
 
             </LinearLayout>
