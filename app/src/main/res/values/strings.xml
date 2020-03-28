@@ -29,5 +29,27 @@
     <string name="register_reader_code">Code: </string>
     <string name="register_reader_label">Label: </string>
 
+    <string name="ticket_init_quantity">(0) /</string>
+    <string name="ticket_init_price">$0</string>
+    <string name="ticket_items_label">(ITEMS) / </string>
+    <string name="ticket_total_label">(SUBTOTAL($)</string>
+    <string name="ticket_thumbnail">Ticket Thumbnail</string>
+    <string name="ticket_scan_option">SCAN OPTIONS</string>
+    <string name="ticket_radio_instance">INSTANCE</string>
+    <string name="ticket_radio_event">EVENT</string>
+    <string name="ticket_scan_button">SCAN</string>
+    <string name="ticket_cash_sale">CASH SALE</string>
+    <string name="ticket_card_sale">CARD SALE</string>
     <string name="ticket_barcode_hint"> barcode</string>
+    <string name="price_list_ticket">TICKET</string>
+    <string name="price_list_quantity">QTY</string>
+    <string name="price_list_price">PRICE</string>
+    <string name="price_list_total">TOTAL</string>
+    <string name="per_ticket_discount">PER TICKET DISCOUNT</string>
+    <string name="ticket_discount_hint">discount value</string>
+    <string name="discount_type_none">None</string>
+    <string name="discount_type_percent">Percent</string>
+    <string name="discount_type_dollar">Dollar value</string>
+    <string name="discount_card_name">COUPLES TICKET</string>
+    <string name="discount_card_price">$180.00</string>
 </resources>

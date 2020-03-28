@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         return list;
     }
 
-    public void reLayoutListView(ListView listView, int limitCnt) {
+    public static void reLayoutListView(ListView listView, int limitCnt) {
 
         ListAdapter mAdapter = listView.getAdapter();
 

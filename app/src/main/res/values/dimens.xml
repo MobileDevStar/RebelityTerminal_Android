@@ -19,4 +19,11 @@
     <dimen name="terminal_setup_top">@dimen/_30sdp</dimen>
     <dimen name="terminal_connect_height">@dimen/_27sdp</dimen>
 
+    <dimen name="ticket_total_container_width">@dimen/_150sdp</dimen>
+    <dimen name="ticket_total_container_height">@dimen/_40sdp</dimen>
+    <dimen name="ticket_thumbnail_width">@dimen/_100sdp</dimen>
+    <dimen name="ticket_thumbnail_height">@dimen/_80sdp</dimen>
+    <dimen name="ticket_edit_height">@dimen/_30sdp</dimen>
+    <dimen name="discount_edit_left">@dimen/_107sdp</dimen>
+
 </resources>
