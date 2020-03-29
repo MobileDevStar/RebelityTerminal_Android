@@ -3,6 +3,8 @@
     <color name="colorPrimary">#465568</color>
     <color name="colorPrimaryDark">#3A4554</color>
     <color name="colorAccent">#323d4b</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
     <color name="logoColor">#5f6e83</color>
     <color name="loginTitleColor">#4db3a5</color>
     <color name="loginButtonColor">#f3565d</color>

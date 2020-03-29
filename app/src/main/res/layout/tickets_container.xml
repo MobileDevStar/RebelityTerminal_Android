@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toLeftOf="@+id/ticket_total_price"
                     android:text="@string/ticket_init_quantity"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/accent_font_size"
                     android:layout_toStartOf="@+id/ticket_total_price" />
                 <TextView
@@ -51,7 +51,7 @@
                     android:layout_toLeftOf="@+id/ticket_subtotal_label"
                     android:layout_toStartOf="@+id/ticket_subtotal_label"
                     android:text="@string/ticket_items_label"
-                    android:textColor="@android:color/black"/>
+                    android:textColor="@color/black"/>
                 <TextView
                     android:id="@+id/ticket_subtotal_label"
                     android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="@dimen/small_gap_size"
                     android:text="@string/ticket_scan_option"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/black"
                     android:layout_gravity="center_horizontal"/>
 
                 <RadioGroup
@@ -160,19 +160,19 @@
                         android:padding="@dimen/small_gap_size"
                         android:text=""
                         android:textSize="@dimen/small_font_size"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/black"
                         android:textColorHint="@color/gray_color"
                         android:autofillHints="" tools:targetApi="o"
                         android:layout_alignParentStart="true"
                         android:layout_toStartOf="@+id/ticket_scan" />
                     <Button
                         android:id="@+id/ticket_scan"
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_30sdp"
+                        android:layout_width="@dimen/scan_button_width"
+                        android:layout_height="@dimen/scan_button_height"
                         android:background="@drawable/scan_button_bg"
                         android:layout_alignParentRight="true"
                         android:text="@string/ticket_scan_button"
-                        android:textColor="@android:color/white"
+                        android:textColor="@color/white"
                         android:layout_alignParentEnd="true" />
                 </RelativeLayout>
 
@@ -278,7 +278,7 @@
             android:padding="@dimen/small_gap_size"
             android:text=""
             android:textSize="@dimen/small_font_size"
-            android:textColor="@android:color/black"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray_color"
             android:enabled="false"
             tools:targetApi="o" />

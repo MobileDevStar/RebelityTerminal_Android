@@ -105,7 +105,7 @@
                 android:layout_marginBottom="@dimen/mid_gap_size"
                 android:background="@drawable/login_button_bg"
                 android:text="@string/app_login_title"
-                android:textColor="@android:color/white"
+                android:textColor="@color/white"
                 android:onClick="onClickLogin"/>
 
             <TextView
@@ -116,7 +116,7 @@
                 android:background="@drawable/login_validation_bg"
                 android:padding="@dimen/small_gap_size"
                 android:text="@string/login_username_validate"
-                android:textColor="@android:color/white"
+                android:textColor="@color/white"
                 android:visibility="gone" />
         </LinearLayout>
     </LinearLayout>

@@ -27,5 +27,9 @@
     <dimen name="ticket_edit_height">@dimen/_30sdp</dimen>
     <dimen name="discount_edit_left">@dimen/_107sdp</dimen>
     <dimen name="ticket_recycler_margin">@dimen/_4sdp</dimen>
+    <dimen name="scan_button_width">@dimen/_40sdp</dimen>
+    <dimen name="scan_button_height">@dimen/_30sdp</dimen>
+    <dimen name="search_button_width">@dimen/_60sdp</dimen>
+    <dimen name="search_button_height">@dimen/_30sdp</dimen>
 
 </resources>

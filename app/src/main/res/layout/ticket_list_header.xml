@@ -10,7 +10,8 @@
         android:layout_weight="0.3"
         android:padding="@dimen/small_gap_size"
         android:text="@string/price_list_ticket"
-        android:textColor="@android:color/black"/>
+        android:textAllCaps="true"
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -18,33 +19,36 @@
         android:paddingTop="@dimen/small_gap_size"
         android:paddingBottom="@dimen/small_gap_size"
         android:text="@string/price_list_quantity"
-        android:textColor="@android:color/black"/>
+        android:textAllCaps="true"
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
         android:padding="@dimen/small_gap_size"
         android:text="@string/price_list_price"
-        android:textColor="@android:color/black"/>
+        android:textAllCaps="true"
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
         android:padding="@dimen/small_gap_size"
         android:text="@string/price_list_total"
-        android:textColor="@android:color/black"/>
+        android:textAllCaps="true"
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
 </LinearLayout>

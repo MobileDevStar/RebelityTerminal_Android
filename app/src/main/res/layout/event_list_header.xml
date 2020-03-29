@@ -11,7 +11,7 @@
         android:padding="@dimen/small_gap_size"
         android:text="@string/event_list_event"
         android:textStyle="bold"
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:padding="@dimen/small_gap_size"
         android:text="@string/event_list_instance"
         android:textStyle="bold"
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,5 +27,5 @@
         android:padding="@dimen/small_gap_size"
         android:text="@string/event_list_contact"
         android:textStyle="bold"
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
 </LinearLayout>

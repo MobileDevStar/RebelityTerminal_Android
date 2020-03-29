@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/gray_color"
+    android:padding="@dimen/small_gap_size">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="0.2"
+        android:text="@string/sales_header_tickets"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="0.3"
+        android:text="@string/sales_header_customer"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="@string/sales_header_info"
+        android:layout_weight="0.3"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="0.2"
+        android:text="@string/sales_header_action"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</LinearLayout>

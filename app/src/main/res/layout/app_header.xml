@@ -5,13 +5,11 @@
     android:id="@+id/app_header"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/black"
+    android:background="@color/black"
     android:orientation="horizontal"
     android:paddingStart="@dimen/mid_gap_size"
     android:paddingLeft="@dimen/mid_gap_size"
     android:paddingTop="@dimen/small_gap_size"
-    android:paddingEnd="@dimen/small_gap_size"
-    android:paddingRight="@dimen/small_gap_size"
     android:paddingBottom="@dimen/small_gap_size">
 
     <ImageView
@@ -23,12 +21,21 @@
         android:contentDescription="@string/app_logo_image"
         app:srcCompat="@drawable/logo" />
 
-    <ImageView
-        android:layout_width="@dimen/logout_width"
-        android:layout_height="@dimen/logout_height"
+    <LinearLayout
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/small_gap_size"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:contentDescription="@string/app_logout_image"
-        app:srcCompat="@drawable/logout" />
+        android:background="@drawable/logout_button_bg">
+        <ImageView
+            android:layout_width="@dimen/logout_width"
+            android:layout_height="@dimen/logout_height"
+            android:contentDescription="@string/app_logout_image"
+            app:srcCompat="@drawable/logout" />
+    </LinearLayout>
+
 </RelativeLayout>

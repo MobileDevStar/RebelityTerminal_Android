@@ -11,7 +11,7 @@
         android:layout_gravity="center_vertical"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
     <TextView
         android:id="@+id/terminal_list_status"
         android:layout_width="0dp"
@@ -20,7 +20,7 @@
         android:layout_gravity="center_vertical"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
     <Button
         android:id="@+id/terminal_list_connect"
         android:layout_width="0dp"
@@ -30,6 +30,6 @@
         android:layout_gravity="center_vertical"
         android:background="@drawable/connect_button_bg"
         android:text="@string/terminal_connect"
-        android:textColor="@android:color/white"/>
+        android:textColor="@color/white"/>
 
 </LinearLayout>

@@ -10,7 +10,7 @@
         android:layout_weight="0.3"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/event_list_instance"
@@ -29,5 +29,5 @@
         android:layout_weight="0.3"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black"/>
+        android:textColor="@color/black"/>
 </LinearLayout>

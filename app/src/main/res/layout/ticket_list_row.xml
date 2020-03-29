@@ -13,7 +13,7 @@
         android:lines="1"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black" />
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/ticket_row_quantity"
@@ -37,7 +37,7 @@
         android:layout_marginLeft="@dimen/_2sdp"
         android:layout_marginRight="@dimen/_2sdp"
         android:text="@string/fa_minus_solid"
-        android:textColor="@android:color/white"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="@dimen/accent_font_size"
         app:solid_icon="true"/>
@@ -50,7 +50,7 @@
         android:lines="1"
         android:padding="@dimen/small_gap_size"
         android:text=""
-        android:textColor="@android:color/black" />
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/ticket_row_total"
