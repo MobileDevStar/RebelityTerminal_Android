@@ -13,13 +13,13 @@ import com.rebelity.rebelityterminal.components.WrappingViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TicketTapAdapter extends FragmentPagerAdapter {
+public class RebelityTapAdapter extends FragmentPagerAdapter {
     private final List<Fragment> mFragmentList = new ArrayList<>();
     private final List<String> mFragmentTitleList = new ArrayList<>();
     private int mCurrentPosition = -1;
     private Context             mContext;
 
-    public TicketTapAdapter(Context context, FragmentManager fm) {
+    public RebelityTapAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }

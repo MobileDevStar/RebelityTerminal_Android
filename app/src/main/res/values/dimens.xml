@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="accent_font_size">@dimen/_14sdp</dimen>
-    <dimen name="small_font_size">@dimen/_12sdp</dimen>
+    <dimen name="m_font_size">@dimen/_14sdp</dimen>
+    <dimen name="s_font_size">@dimen/_12sdp</dimen>
+    <dimen name="xs_font_size">@dimen/_10sdp</dimen>
+    <dimen name="m_button_height">@dimen/_30sdp</dimen>
+    <dimen name="s_button_height">@dimen/_25sdp</dimen>
+    <dimen name="m_gap_size">@dimen/_15sdp</dimen>
+    <dimen name="s_gap_size">@dimen/_8sdp</dimen>
+    <dimen name="xs_gap_size">@dimen/_4sdp</dimen>
+
+    <dimen name="action_bar_height">@dimen/_45sdp</dimen>
     <dimen name="logo_width">@dimen/_200sdp</dimen>
     <dimen name="logo_height">@dimen/_70sdp</dimen>
     <dimen name="logo_margin_bottom">@dimen/_20sdp</dimen>
-    <dimen name="mid_gap_size">@dimen/_15sdp</dimen>
-    <dimen name="small_gap_size">@dimen/_8sdp</dimen>
     <dimen name="login_edit_textsize">@dimen/_14sdp</dimen>
     <dimen name="login_button_height">@dimen/_32sdp</dimen>
     <dimen name="copyright_margin_bottom">@dimen/_20sdp</dimen>
@@ -18,7 +24,6 @@
     <dimen name="event_image_height">@dimen/_60sdp</dimen>
     <dimen name="event_list_height">@dimen/_250sdp</dimen>
     <dimen name="terminal_setup_top">@dimen/_30sdp</dimen>
-    <dimen name="terminal_connect_height">@dimen/_27sdp</dimen>
 
     <dimen name="ticket_total_container_width">@dimen/_150sdp</dimen>
     <dimen name="ticket_total_container_height">@dimen/_40sdp</dimen>
@@ -28,8 +33,6 @@
     <dimen name="discount_edit_left">@dimen/_107sdp</dimen>
     <dimen name="ticket_recycler_margin">@dimen/_4sdp</dimen>
     <dimen name="scan_button_width">@dimen/_40sdp</dimen>
-    <dimen name="scan_button_height">@dimen/_30sdp</dimen>
     <dimen name="search_button_width">@dimen/_60sdp</dimen>
-    <dimen name="search_button_height">@dimen/_30sdp</dimen>
 
 </resources>

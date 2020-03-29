@@ -8,129 +8,32 @@
     android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/main_body"
+    <include
+        android:id="@+id/app_header"
+        layout="@layout/app_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s_gap_size"
+        android:layout_marginRight="@dimen/s_gap_size"
+        app:tabGravity="fill"
+        app:tabTextColor="@color/white"
+        app:tabRippleColor="@color/white"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="2dp"
+        app:tabBackground="@color/colorPrimary"
+        app:tabMode="fixed">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <com.rebelity.rebelityterminal.components.WrappingViewPager
+        android:id="@+id/main_pages"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <include
-                android:id="@+id/app_header"
-                layout="@layout/app_header"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="@dimen/small_gap_size"
-                android:paddingRight="@dimen/small_gap_size"
-                android:paddingBottom="@dimen/mid_gap_size">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/small_gap_size"
-                    android:paddingBottom="@dimen/small_gap_size">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentLeft="true"
-                        android:layout_centerVertical="true"
-                        android:layout_toStartOf="@+id/upcoming_event_image"
-                        android:layout_toLeftOf="@+id/upcoming_event_image"
-                        android:text="@string/upcoming_event"
-                        android:textColor="@color/white"
-                        android:textSize="@dimen/accent_font_size"
-                        android:textStyle="bold" />
-
-                    <ImageView
-                        android:id="@+id/upcoming_event_image"
-                        android:layout_width="@dimen/event_image_width"
-                        android:layout_height="@dimen/event_image_height"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:contentDescription="@string/upcoming_event_image"
-                        app:srcCompat="@drawable/event" />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:orientation="vertical">
-
-                    <include
-                        layout="@layout/event_list_header"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <ListView
-                        android:id="@+id/event_list_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/mid_gap_size"
-                    android:layout_marginBottom="@dimen/small_gap_size"
-                    android:text="@string/terminal_setup"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/accent_font_size"
-                    android:textStyle="bold" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:orientation="vertical">
-
-                    <include
-                        layout="@layout/register_reader_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:visibility="gone" />
-
-                    <include
-                        layout="@layout/terminal_list_header"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <ListView
-                        android:id="@+id/terminal_list_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <Button
-                        android:id="@+id/register_new_reader"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/terminal_connect_height"
-                        android:layout_margin="@dimen/small_gap_size"
-                        android:background="@drawable/connect_button_bg"
-                        android:padding="@dimen/small_gap_size"
-                        android:text="@string/register_new_reader"
-                        android:textColor="@color/white" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <include
-                android:id="@+id/app_footer"
-                layout="@layout/app_footer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/small_gap_size"
-                android:layout_marginRight="@dimen/small_gap_size"/>
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+    </com.rebelity.rebelityterminal.components.WrappingViewPager>
 
 </LinearLayout>

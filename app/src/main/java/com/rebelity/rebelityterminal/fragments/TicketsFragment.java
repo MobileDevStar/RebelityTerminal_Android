@@ -1,6 +1,5 @@
-package com.rebelity.rebelityterminal.TicketFragments;
+package com.rebelity.rebelityterminal.fragments;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

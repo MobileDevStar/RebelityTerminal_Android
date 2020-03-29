@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
         android:layout_gravity="center_vertical"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text=""
         android:textColor="@color/black"/>
     <TextView
@@ -18,15 +18,15 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
         android:layout_gravity="center_vertical"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text=""
         android:textColor="@color/black"/>
     <Button
         android:id="@+id/terminal_list_connect"
         android:layout_width="0dp"
-        android:layout_height="@dimen/terminal_connect_height"
+        android:layout_height="@dimen/m_button_height"
         android:layout_weight="0.4"
-        android:layout_margin="@dimen/small_gap_size"
+        android:layout_margin="@dimen/s_gap_size"
         android:layout_gravity="center_vertical"
         android:background="@drawable/connect_button_bg"
         android:text="@string/terminal_connect"

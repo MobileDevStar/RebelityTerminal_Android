@@ -8,7 +8,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text="@string/event_list_event"
         android:textStyle="bold"
         android:textColor="@color/black"/>
@@ -16,7 +16,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.4"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text="@string/event_list_instance"
         android:textStyle="bold"
         android:textColor="@color/black"/>
@@ -24,7 +24,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text="@string/event_list_contact"
         android:textStyle="bold"
         android:textColor="@color/black"/>

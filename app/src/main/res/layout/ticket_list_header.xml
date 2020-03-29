@@ -8,7 +8,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text="@string/price_list_ticket"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
@@ -16,8 +16,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
-        android:paddingTop="@dimen/small_gap_size"
-        android:paddingBottom="@dimen/small_gap_size"
+        android:paddingTop="@dimen/s_gap_size"
+        android:paddingBottom="@dimen/s_gap_size"
         android:text="@string/price_list_quantity"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
@@ -25,14 +25,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text=""
         android:textColor="@color/black"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text="@string/price_list_price"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
@@ -40,7 +40,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text="@string/price_list_total"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
@@ -48,7 +48,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
-        android:padding="@dimen/small_gap_size"
+        android:padding="@dimen/s_gap_size"
         android:text=""
         android:textColor="@color/black"/>
 </LinearLayout>

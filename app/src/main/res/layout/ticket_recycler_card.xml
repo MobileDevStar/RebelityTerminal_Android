@@ -20,14 +20,14 @@
             <info.androidhive.fontawesome.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/small_gap_size"
+                android:padding="@dimen/s_gap_size"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:text="@string/fa_ticket_alt_solid"
                 android:textColor="@color/discount_ticket_color"
                 android:textStyle="bold"
-                android:textSize="@dimen/accent_font_size"
+                android:textSize="@dimen/m_font_size"
                 android:rotation="-45"
                 app:solid_icon="true"/>
 
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/small_gap_size">
+                android:padding="@dimen/s_gap_size">
 
                 <TextView
                     android:id="@+id/ticket_card_name"

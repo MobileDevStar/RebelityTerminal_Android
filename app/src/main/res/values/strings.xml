@@ -19,6 +19,7 @@
     <string name="terminal_connect">CONNECT</string>
     <string name="register_new_reader">REGISTER NEW READER</string>
     <string name="terminal_register">REGISTER</string>
+    <string name="terminal_register_cancel">CANCEL</string>
     <string name="card_terminal_registration">Card Terminal Registration</string>
     <string name="register_note_no1">1.</string>
     <string name="register_note1">Connect a card reader to your network and power it on.</string>
@@ -30,6 +31,8 @@
     <string name="register_reader_label">Label: </string>
 
     <string name="print_queue_label">Print Queue</string>
+    <string name="events_label">EVENTS</string>
+    <string name="terminal_label">TERMINAL SETUP</string>
     <string name="guests_label">GUESTLIST</string>
     <string name="tickets_label">TICKETS</string>
     <string name="sales_label">SALES</string>
@@ -64,6 +67,9 @@
     <string name="search_button">Search</string>
     <string name="sales_header_tickets">Tickets</string>
     <string name="sales_header_customer">Customer</string>
-    <string name="sales_header_info">Total\nType\nTime</string>
-    <string name="sales_header_action">Reprint\nRefund</string>
+    <string name="sales_header_info">Sales</string>
+    <string name="sales_header_action">Action</string>
+
+    <string name="sales_list_refund">Refund</string>
+    <string name="sales_list_tickets">Tickets</string>
 </resources>

@@ -1,12 +1,14 @@
 package com.rebelity.rebelityterminal.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.rebelity.rebelityterminal.DetailsActivity;
 import com.rebelity.rebelityterminal.R;
 import com.rebelity.rebelityterminal.models.EventModel;
 
@@ -72,6 +74,13 @@ public class EventAdapter extends BaseAdapter {
         holder.tvInstance.setText(eventModelArrayList.get(position).getInstance());
         holder.tvContact.setText(eventModelArrayList.get(position).getContact());
 
+        holder.tvInstance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, DetailsActivity.class);
+                context.startActivity(intent);
+            }
+        });
         return convertView;
     }
 

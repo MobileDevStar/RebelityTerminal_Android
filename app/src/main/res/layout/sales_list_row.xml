@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/xs_gap_size">
+
+    <TextView
+        android:id="@+id/sales_list_tickets"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:gravity="center_horizontal"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:paddingRight="@dimen/xs_gap_size"
+        android:paddingEnd="@dimen/xs_gap_size"
+        android:text="@string/sales_header_tickets"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/sales_list_customer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:paddingRight="@dimen/xs_gap_size"
+        android:paddingEnd="@dimen/xs_gap_size"
+        android:text="@string/sales_header_customer"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:paddingRight="@dimen/xs_gap_size"
+        android:paddingEnd="@dimen/xs_gap_size">
+        <TextView
+            android:id="@+id/sales_list_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/sales_header_info"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/sales_list_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/xs_gap_size"
+            android:layout_marginBottom="@dimen/xs_gap_size"
+            android:text="@string/sales_header_info"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/sales_list_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/sales_header_info"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <Button
+            android:id="@+id/sales_button_tickets"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/s_button_height"
+            android:background="@drawable/cancel_button_bg"
+            android:text="@string/sales_list_tickets"
+            android:textSize="@dimen/xs_font_size"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/sales_button_refund"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/s_button_height"
+            android:layout_marginTop="@dimen/xs_gap_size"
+            android:background="@drawable/warning_button_bg"
+            android:text="@string/sales_list_refund"
+            android:textSize="@dimen/xs_font_size"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

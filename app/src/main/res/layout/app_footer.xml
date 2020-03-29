@@ -15,8 +15,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="@dimen/mid_gap_size"
-        android:paddingBottom="@dimen/mid_gap_size"
+        android:paddingTop="@dimen/m_gap_size"
+        android:paddingBottom="@dimen/m_gap_size"
         android:text="@string/app_copyright"
         android:textColor="@color/white" />
 </LinearLayout>

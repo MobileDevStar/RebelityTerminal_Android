@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/s_gap_size"
+    android:paddingRight="@dimen/s_gap_size"
+    android:paddingBottom="@dimen/s_gap_size">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/s_gap_size"
+        android:paddingBottom="@dimen/s_gap_size">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/upcoming_event_image"
+            android:layout_toLeftOf="@+id/upcoming_event_image"
+            android:text="@string/upcoming_event"
+            android:textColor="@color/white"
+            android:textSize="@dimen/m_font_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/upcoming_event_image"
+            android:layout_width="@dimen/event_image_width"
+            android:layout_height="@dimen/event_image_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/upcoming_event_image"
+            app:srcCompat="@drawable/event" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/event_list_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/event_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
