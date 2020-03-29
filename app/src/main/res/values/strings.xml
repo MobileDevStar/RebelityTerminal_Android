@@ -31,11 +31,11 @@
     <string name="register_reader_label">Label: </string>
 
     <string name="print_queue_label">Print Queue</string>
-    <string name="events_label">EVENTS</string>
-    <string name="terminal_label">TERMINAL SETUP</string>
-    <string name="guests_label">GUESTLIST</string>
-    <string name="tickets_label">TICKETS</string>
-    <string name="sales_label">SALES</string>
+    <string name="events_tab_label">EVENTS</string>
+    <string name="terminal_tab_label">TERMINAL SETUP</string>
+    <string name="guests_tab_label">GUESTLIST</string>
+    <string name="tickets_tab_label">TICKETS</string>
+    <string name="sales_tab_label">SALES</string>
     <string name="ticket_init_quantity">(0) /</string>
     <string name="ticket_init_price">$0</string>
     <string name="ticket_items_label">(ITEMS) / </string>
@@ -69,7 +69,19 @@
     <string name="sales_header_customer">Customer</string>
     <string name="sales_header_info">Sales</string>
     <string name="sales_header_action">Action</string>
-
     <string name="sales_list_refund">Refund</string>
     <string name="sales_list_tickets">Tickets</string>
+
+    <string name="attendance_label">Attendance:</string>
+    <string name="guests_label">Guests:</string>
+    <string name="vips_label">VIP\'s:</string>
+    <string name="checked_label">Checked in:</string>
+
+    <string name="guests_header_name">Name</string>
+    <string name="guests_header_confirmed">Confirmed</string>
+    <string name="guests_header_status">Status</string>
+
+    <string name="guest_check_in">Check in</string>
+    <string name="guest_checked_in">Checked In</string>
+    <string name="guest_status_used">Used</string>
 </resources>

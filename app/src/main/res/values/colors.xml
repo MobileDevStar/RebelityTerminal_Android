@@ -12,7 +12,9 @@
     <color name="light_magenta_color">#8e5fa2</color>
     <color name="gray_color">#e6e6e6</color>
     <color name="red_color">#FF0000</color>
+    <color name="light_red_color">#ff5722</color>
     <color name="dark_green_color">#238c23</color>
     <color name="discount_card_color">#495565</color>
     <color name="discount_ticket_color">#666e79</color>
+    <color name="light_grey_color">#f9f9f9</color>
 </resources>

@@ -34,9 +34,10 @@ public class DetailsActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.ticket_details_tablayout);
 
         adapter = new RebelityTapAdapter(this, getSupportFragmentManager());
-        adapter.addFragment(new GuestsFragment(), getString(R.string.guests_label));
-        adapter.addFragment(new SalesFragment(), getString(R.string.sales_label));
-        adapter.addFragment(new TicketsFragment(), getString(R.string.tickets_label));
+
+        adapter.addFragment(new TicketsFragment(), getString(R.string.tickets_tab_label));
+        adapter.addFragment(new GuestsFragment(), getString(R.string.guests_tab_label));
+        adapter.addFragment(new SalesFragment(), getString(R.string.sales_tab_label));
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);

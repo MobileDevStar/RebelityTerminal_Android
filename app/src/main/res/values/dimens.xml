@@ -5,6 +5,7 @@
     <dimen name="xs_font_size">@dimen/_10sdp</dimen>
     <dimen name="m_button_height">@dimen/_30sdp</dimen>
     <dimen name="s_button_height">@dimen/_25sdp</dimen>
+    <dimen name="xs_button_height">@dimen/_20sdp</dimen>
     <dimen name="m_gap_size">@dimen/_15sdp</dimen>
     <dimen name="s_gap_size">@dimen/_8sdp</dimen>
     <dimen name="xs_gap_size">@dimen/_4sdp</dimen>

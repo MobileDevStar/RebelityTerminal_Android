@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.main_tab_layout);
 
         adapter = new RebelityTapAdapter(this, getSupportFragmentManager());
-        adapter.addFragment(new EventsFragment(), getString(R.string.events_label));
-        adapter.addFragment(new TerminalsFragment(), getString(R.string.terminal_label));
+        adapter.addFragment(new EventsFragment(), getString(R.string.events_tab_label));
+        adapter.addFragment(new TerminalsFragment(), getString(R.string.terminal_tab_label));
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);

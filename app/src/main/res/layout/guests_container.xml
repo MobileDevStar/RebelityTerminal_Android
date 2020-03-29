@@ -19,7 +19,7 @@
             android:paddingLeft="0dp"
             android:paddingEnd="@dimen/s_gap_size"
             android:paddingStart="0dp"
-            android:text="@string/total_sales_label"
+            android:text="@string/attendance_label"
             android:textSize="@dimen/xs_font_size"
             android:textColor="@color/black"/>
         <TextView
@@ -39,7 +39,7 @@
             android:paddingLeft="0dp"
             android:paddingEnd="@dimen/s_gap_size"
             android:paddingStart="0dp"
-            android:text="@string/online_label"
+            android:text="@string/guests_label"
             android:textSize="@dimen/xs_font_size"
             android:textColor="@color/black"/>
         <TextView
@@ -59,7 +59,7 @@
             android:paddingLeft="0dp"
             android:paddingEnd="@dimen/s_gap_size"
             android:paddingStart="0dp"
-            android:text="@string/card_label"
+            android:text="@string/vips_label"
             android:textSize="@dimen/xs_font_size"
             android:textColor="@color/black"/>
         <TextView
@@ -79,7 +79,7 @@
             android:paddingLeft="0dp"
             android:paddingEnd="@dimen/s_gap_size"
             android:paddingStart="0dp"
-            android:text="@string/cash_label"
+            android:text="@string/checked_label"
             android:textSize="@dimen/xs_font_size"
             android:textColor="@color/black"/>
         <TextView
@@ -132,14 +132,17 @@
         android:layout_marginTop="@dimen/s_gap_size">
 
         <include
-            layout="@layout/sales_list_header"
+            layout="@layout/guests_list_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <ListView
-            android:id="@+id/sales_list_view"
+        <ExpandableListView
+            android:id="@+id/guests_list_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0.5dp"/>
     </LinearLayout>
 
 

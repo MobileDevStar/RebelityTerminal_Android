@@ -9,16 +9,9 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="0.2"
-        android:text="@string/sales_header_tickets"
-        android:textAllCaps="true"
-        android:textColor="@color/black"/>
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="0.3"
-        android:text="@string/sales_header_customer"
+        android:layout_weight="0.4"
+        android:gravity="center_horizontal"
+        android:text="@string/guests_header_name"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
 
@@ -26,15 +19,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:text="@string/sales_header_info"
+        android:gravity="center_horizontal"
+        android:text="@string/guests_header_confirmed"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="0.2"
-        android:text="@string/sales_header_action"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal"
+        android:text="@string/guests_header_status"
         android:textAllCaps="true"
         android:textColor="@color/black"/>
 </LinearLayout>

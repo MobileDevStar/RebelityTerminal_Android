@@ -48,8 +48,8 @@ public class SalesFragment extends Fragment {
         ArrayList<SalesModel> list = new ArrayList<>();
         String[] tickets = {"Training session1", "couples Ticket"};
         for(int i = 0; i < 10; i++){
-            SalesModel terminalModel = new SalesModel(i, tickets , "Kashia-Bsmnt", (float)360.0, "cash", "3/26/2020 1:08 pm");
-            list.add(terminalModel);
+            SalesModel salesModel = new SalesModel(i, tickets , "Kashia-Bsmnt", (float)360.0, "cash", "3/26/2020 1:08 pm");
+            list.add(salesModel);
         }
 
         return list;
